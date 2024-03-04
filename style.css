@@ -1,4 +1,50 @@
 .body {
-  background-color: yellow;
-  color: blue;
+  margin-top: 15%;
+  background-color: rgb(26, 184, 87);
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 13%;
+  background-color: rgb(29, 26, 184);
+}
+
+.info-div {
+  margin-left: 20%;
+  width: 60%;
+}
+
+.centerpiece {
+  border: solid 1px black;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.item-img {
+  width: 25%;
+}
+
+.item2-img {
+  width: 50%;
+}
+
+.outer-border {
+  border: solid 2px rgb(29, 26, 184);
+}
+
+footer {
+  width: 100;
+  height: 13%;
+  background-color: rgb(29, 26, 184);
+}
+
+@media screen and (max-width: 1000px) {
+  .item-img {
+    width: 45%;
+  }
+
+  .item2-img {
+    width: 100%;
+  }
 }
