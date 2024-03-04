@@ -11,6 +11,14 @@
   background-color: rgb(29, 26, 184);
 }
 
+.nav-logo {
+  width: 100px;
+}
+
+.body-logo{
+  width: 250px;
+}
+
 .info-div {
   margin-left: 20%;
   width: 60%;
@@ -21,12 +29,25 @@
   border-radius: 50px 50px 50px 50px;
 }
 
+.contact-div {
+  margin-left: 50px;
+}
+
 .item-img {
   width: 25%;
 }
 
 .item2-img {
   width: 50%;
+}
+
+.img-size {
+  width: 150px;
+  height: 150px;
+}
+
+.num-1 {
+  margin-right: 15px;
 }
 
 .outer-border {
@@ -42,9 +63,88 @@ footer {
 @media screen and (max-width: 1000px) {
   .item-img {
     width: 45%;
+    padding-left: 5px;
   }
 
   .item2-img {
     width: 100%;
+  }
+
+  .img-size {
+    width: 80px;
+    height: 80px;
+  }
+
+  .num-1 {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .body {
+    margin-top: 25%;
+  }
+
+  .nav-logo {
+    width: 75px;
+  }
+
+  .nav-title {
+    font-size: 14px;
+  }
+
+  .nav-options {
+    font-size: 12px;
+  }
+
+  .body-logo {
+    width: 150px;
+  }
+
+  .centerpiece {
+    display: none;
+  }
+
+  .contact-div {
+    margin-left: 15px;
+  }
+
+  .item-img {
+    width: 100%;
+    margin-left: 15px;
+    padding-left: 5px;
+  }
+
+  .item2-img {
+    width: 100%;
+    margin-left: 15px;
+    padding-left: 5px;
+  }
+
+  .img-size {
+    width: 80px;
+    height: 80px;
+  }
+
+  .num-1 {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .nav-logo {
+    display: none;
+  }
+
+  .contact-div {
+    margin-left: 15px;
+  }
+
+  .icon-display {
+    display: none;
+  }
+
+  .num-1 {
+    margin-right: 0;
   }
 }

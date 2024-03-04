@@ -12,16 +12,16 @@
   <body class="body">
 
     <header class="header-section">
-      <nav class="nav d-flex flex-row justify-content-between border border-warning pl-3">
-        <div class="d-flex flx-row">
+      <nav class="nav d-flex flex-wrap justify-content-between border border-warning pl-3">
+        <div class="d-flex flex-row">
           <div class="py-3 pr-3">
-            <img src="./assets/logo1.jpeg" alt="Cielo Party Rental logo" width="100" class="rounded">
+            <img src="./assets/logo1.jpeg" alt="Cielo Party Rental logo" width="100" class="nav-logo rounded">
           </div>
-          <h5 class="text-warning pt-4">Cielo Party Rentals</h5>
+          <h5 class="nav-title text-warning pt-4">Cielo Party Rentals</h5>
         </div>
         <div class="d-flex flex-row justify-content-between pt-4 pr-4">
-          <a href="#español" class="spanish-link text-warning pr-3">Español</a>
-          <a href="#english" class="english-link text-warning">English</a> 
+          <a href="#español" class="nav-options spanish-link text-warning pr-3">Español</a>
+          <a href="#english" class="nav-options english-link text-warning">English</a> 
         </div>
       </nav>
     </header>
@@ -38,19 +38,19 @@
 
           <div class="d-flex flex-wrap justify-content-between border border-warning rounded">
             <div class="py-3 pl-3">
-              <img src="./assets/logo1.jpeg" alt="Cielo Party Rental logo" width="250" class="rounded">
+              <img src="./assets/logo1.jpeg" alt="Cielo Party Rental logo" class="body-logo rounded">
             </div>
-            <div class="d-flex flex-row justify-content-end">
+            <div class="contact-div d-flex flex-row justify-content-end">
               <div class="d-flex flex-column align-items-start">
-                <div class="d-flex flex-row justify-content-start mt-3 ml-5" >
-                  <img src="./assets/envelope.png" alt="email" height="20" class="rounded mt-1 mr-3"/>
+                <div class="d-flex flex-row justify-content-start mt-3" >
+                  <img src="./assets/envelope.png" alt="email" height="20" class="icon-display rounded mt-1 mr-3"/>
                   <a href="mailto:cielopartyrentals@gmail.com", class="text-white"><small>cielopartyrentals@gmail.com</small></a>
                 </div>
-                <div class="d-flex flex-row justify-content-start mt-3 ml-5" >
-                  <img src="./assets/phone.png" alt="phone" height="25" class="border border-light rounded mr-3"/>
+                <div class="d-flex flex-row justify-content-start mt-3" >
+                  <img src="./assets/phone.png" alt="phone" height="25" class="icon-display border border-light rounded mr-3"/>
                   <p class="text-white mr-5"><small>Magaly 7609783501 | Juan 7602132521</small></p>
                 </div>
-                <p class="text-white ml-5"><small>Le atendemos en Español o en Ingles.</small></p>
+                <p class="text-white"><small>Le atendemos en Español o en Ingles.</small></p>
               </div>
               <div class="mb-3 mr-3">
                 <img src="./assets/centerpiece.jpeg" alt="Centerpiece" width="100" class="centerpiece mt-3">
@@ -100,20 +100,8 @@
             <img src="./assets/chair-ribbons.jpeg" alt="Chair ribbons" height="150" width="150" class="rounded mb-3">
             <p class="text-primary"><small>Cenidores para sillas cubiertas</small></p>
           </div>
-          <div class="item2-img border border-warning rounded mb-3 mr-3 py-3">
-            <div class="d-flex flex-row justify-content-center mb-3">
-              <img src="./assets/number15.jpeg" alt="Number" height="150" width="150" class="rounded mr-3">
-              <img src="./assets/number16.jpeg" alt="Number" height="150" width="150" class="rounded">
-            </div>
-            <div class="d-flex flex-row justify-content-center">
-              <p class="text-primary"><small>Numeros iluminados</small></p>
-            </div>
-          </div>
-          <div class="item2-img border border-warning rounded mb-3 mr-3 py-3">
-            <div class="d-flex flex-row justify-content-center mb-3">
-              <img src="./assets/acoutrement1.jpeg" alt="Server" height="150" width="150" class="rounded mr-3">
-              <img src="./assets/acoutrement2.jpeg" alt="Server" height="150" width="150" class="rounded mr-3">
-            </div>
+          <div class="item-img d-flex flex-column align-items-center border border-warning rounded mb-3 mr-3 py-3">
+            <img src="./assets/acoutrement1.jpeg" alt="Server" height="150" width="150" class="rounded mb-3">
             <div class="d-flex flex-row justify-content-center">
               <p class="text-primary"><small>Bufetera</small></p>
             </div>
@@ -124,13 +112,19 @@
               <p class="text-primary"><small>Jenga jumbo</small></p>
             </div>
           </div>
-          <div class="item2-img border border-warning rounded mb-3 mr-3 py-3">
-            <div class="d-flex flex-row justify-content-center mb-3">
-              <img src="./assets/cornhole1.jpeg" alt="Cornhole" height="150" width="150" class="rounded mr-3">
-              <img src="./assets/cornhole2.jpeg" alt="Cornhole" height="150" width="150" class="rounded">
-            </div>
+          <div class="item-img d-flex flex-column align-items-center border border-warning rounded mb-3 mr-3 py-3">
+            <img src="./assets/cornhole1.jpeg" alt="Cornhole" height="150" width="150" class="num-1 rounded mb-3">
             <div class="d-flex flex-row justify-content-center">
               <p class="text-primary"><small>Juego de Tiro al Blanco</small></p>
+            </div>
+          </div>
+          <div class="item2-img border border-warning rounded mb-3 mr-3 py-3">
+            <div class="d-flex flex-wrap justify-content-center">
+              <img src="./assets/number15.jpeg" alt="Number" height="150" width="150" class="num-1 rounded mb-3">
+              <img src="./assets/number16.jpeg" alt="Number" height="150" width="150" class="rounded mb-3">
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+              <p class="text-primary"><small>Numeros iluminados</small></p>
             </div>
           </div>
         </div>
@@ -158,19 +152,19 @@
 
         <div class="d-flex flex-wrap justify-content-between border border-warning rounded">
           <div class="py-3 pl-3">
-            <img src="./assets/logo1.jpeg" alt="Cielo Party Rental logo" width="250" class="rounded">
+            <img src="./assets/logo1.jpeg" alt="Cielo Party Rental logo" class="body-logo rounded">
           </div>
           <div class="d-flex flex-row justify-content-end">
-            <div class="d-flex flex-column align-items-start">
-              <div class="d-flex flex-row justify-content-start mt-3 ml-5" >
-                <img src="./assets/envelope.png" alt="email" height="20" class="rounded mt-1 mr-3"/>
+            <div class="contact-div d-flex flex-column align-items-start">
+              <div class="d-flex flex-row justify-content-start mt-3" >
+                <img src="./assets/envelope.png" alt="email" height="20" class="icon-display rounded mt-1 mr-3"/>
                 <a href="mailto:cielopartyrentals@gmail.com", class="text-white"><small>cielopartyrentals@gmail.com</small></a>
               </div>
-              <div class="d-flex flex-row justify-content-start mt-3 ml-5" >
-                <img src="./assets/phone.png" alt="phone" height="25" class="border border-light rounded mr-3"/>
+              <div class="d-flex flex-row justify-content-start mt-3" >
+                <img src="./assets/phone.png" alt="phone" height="25" class="icon-display border border-light rounded mr-3"/>
                 <p class="text-white mr-5"><small>Magaly 7609783501 | Juan 7602132521</small></p>
               </div>
-              <p class="text-white ml-5"><small>Le atendemos en Español o en Ingles.</small></p>
+              <p class="text-white"><small>English and Spanish spoken.</small></p>
             </div>
             <div class="mb-3 mr-3">
               <img src="./assets/centerpiece.jpeg" alt="Centerpiece" width="100" class="centerpiece mt-3">
@@ -219,20 +213,8 @@
             <img src="./assets/chair-ribbons.jpeg" alt="Chair ribbons" height="150" width="150" class="rounded mb-3">
             <p class="text-primary"><small>Sash</small></p>
           </div>
-          <div class="item2-img border border-warning rounded mb-3 mr-3 py-3">
-            <div class="d-flex flex-row justify-content-center mb-3">
-              <img src="./assets/number15.jpeg" alt="Number" height="150" width="150" class="rounded mr-3">
-              <img src="./assets/number16.jpeg" alt="Number" height="150" width="150" class="rounded">
-            </div>
-            <div class="d-flex flex-row justify-content-center">
-              <p class="text-primary"><small>Marquee light numbers</small></p>
-            </div>
-          </div>
-          <div class="item2-img border border-warning rounded mb-3 mr-3 py-3">
-            <div class="d-flex flex-row justify-content-center mb-3">
-              <img src="./assets/acoutrement1.jpeg" alt="Server" height="150" width="150" class="rounded mr-3">
-              <img src="./assets/acoutrement2.jpeg" alt="Server" height="150" width="150" class="rounded mr-3">
-            </div>
+          <div class="item-img d-flex flex-column align-items-center border border-warning rounded mb-3 mr-3 py-3">
+            <img src="./assets/acoutrement1.jpeg" alt="Server" height="150" width="150" class="rounded mb-3">
             <div class="d-flex flex-row justify-content-center">
               <p class="text-primary"><small>Chafer dish</small></p>
             </div>
@@ -243,13 +225,19 @@
               <p class="text-primary"><small>Jumbo Jenga game</small></p>
             </div>
           </div>
-          <div class="item2-img border border-warning rounded mb-3 mr-3 py-3">
-            <div class="d-flex flex-row justify-content-center mb-3">
-              <img src="./assets/cornhole1.jpeg" alt="Cornhole" height="150" width="150" class="rounded mr-3">
-              <img src="./assets/cornhole2.jpeg" alt="Cornhole" height="150" width="150" class="rounded">
-            </div>
+          <div class="item-img d-flex flex-column align-items-center border border-warning rounded mb-3 mr-3 py-3">
+            <img src="./assets/cornhole1.jpeg" alt="Cornhole" height="150" width="150" class="rounded mb-3">
             <div class="d-flex flex-row justify-content-center">
               <p class="text-primary"><small>Cornhole sets</small></p>
+            </div>
+          </div>
+          <div class="item2-img border border-warning rounded mb-3 mr-3 py-3">
+            <div class="d-flex flex-wrap justify-content-center">
+              <img src="./assets/number15.jpeg" alt="Number" height="150" width="150" class="num-1 rounded mb-3">
+              <img src="./assets/number16.jpeg" alt="Number" height="150" width="150" class="rounded mb-3">
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+              <p class="text-primary"><small>Marquee light numbers</small></p>
             </div>
           </div>
         </div>
