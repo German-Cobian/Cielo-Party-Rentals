@@ -24,6 +24,10 @@
   width: 60%;
 }
 
+.fs {
+  font-size: 16px;
+}
+
 .centerpiece {
   border: solid 1px black;
   border-radius: 50px 50px 50px 50px;
@@ -39,6 +43,11 @@
 
 .item2-img {
   width: 50%;
+}
+
+.items-border {
+  border: 1px solid #ffc107;
+  border-radius: 5%;
 }
 
 .img-size {
@@ -70,11 +79,6 @@ footer {
     width: 100%;
   }
 
-  .img-size {
-    width: 80px;
-    height: 80px;
-  }
-
   .num-1 {
     margin-right: 15px;
   }
@@ -101,6 +105,10 @@ footer {
     width: 150px;
   }
 
+  .fs {
+    font-size: 12px;
+  }
+
   .centerpiece {
     display: none;
   }
@@ -121,11 +129,6 @@ footer {
     padding-left: 5px;
   }
 
-  .img-size {
-    width: 80px;
-    height: 80px;
-  }
-
   .num-1 {
     margin-right: 15px;
   }
@@ -136,12 +139,25 @@ footer {
     display: none;
   }
 
+  .nav-title {
+    font-size: 12px;
+  }
+
   .contact-div {
     margin-left: 15px;
   }
 
   .icon-display {
     display: none;
+  }
+
+  .event {
+    display: none;
+  }
+
+  .img-size {
+    width: 100px;
+    height: 100px;
   }
 
   .num-1 {
